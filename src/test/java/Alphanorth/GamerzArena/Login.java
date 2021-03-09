@@ -40,7 +40,7 @@ public class Login {
 		driver.findElement(By.name("email")).sendKeys("mytest.qatesting+01@gmail.com");
 
 		// Enter Password
-		driver.findElement(By.name("password")).sendKeys("Gamer@234");
+		driver.findElement(By.name("password")).sendKeys("Gamer@23");
 
 		// Click on Login button
 		Screen Login = new Screen();
